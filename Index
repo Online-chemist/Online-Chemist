@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Online Chemist</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+🧪 Online Chemist
+</div>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">Products</a>
+<a href="#">About</a>
+<a href="#">Contact</a>
+</nav>
+
+</header>
+
+<section class="hero">
+
+<h1>Your Trusted Online Pharmacy</h1>
+
+<p>Order genuine medicines and healthcare products from the comfort of your home.</p>
+
+<a href="#products" class="btn">Shop Now</a>
+
+</section>
+
+<section id="products">
+
+<h2>Popular Products</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Pain Relief</h3>
+<p>Fast relief for headaches and body pain.</p>
+</div>
+
+<div class="card">
+<h3>Vitamins</h3>
+<p>Boost your immunity and stay healthy.</p>
+</div>
+
+<div class="card">
+<h3>First Aid</h3>
+<p>Essential supplies for every home.</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="why">
+
+<h2>Why Choose Us?</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>✔ Genuine Medicines</h3>
+</div>
+
+<div class="card">
+<h3>🚚 Fast Delivery</h3>
+</div>
+
+<div class="card">
+<h3>💳 Secure Payments</h3>
+</div>
+
+</div>
+
+</section>
+
+<section class="contact">
+
+<h2>Contact Us</h2>
+
+<p>Email: info@onlinechemist.com</p>
+
+<p>Phone: +254 XXX XXX XXX</p>
+
+<a class="whatsapp"
+href="https://wa.me/254706332678"
+target="_blank">
+Order via WhatsApp
+</a>
+
+</section>
+
+<footer>
+
+<p>© 2026 Online Chemist. All Rights Reserved.</p>
+
+</footer>
+
+</body>
+</html>*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Poppins,sans-serif;
+}
+
+body{
+background:#f5f8fb;
+color:#333;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 8%;
+background:#0077b6;
+color:white;
+}
+
+.logo{
+font-size:28px;
+font-weight:bold;
+}
+
+nav a{
+margin-left:25px;
+color:white;
+text-decoration:none;
+}
+
+.hero{
+height:80vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+background:linear-gradient(#0077b6,#00b4d8);
+color:white;
+}
+
+.hero h1{
+font-size:55px;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:20px;
+margin-bottom:30px;
+max-width:700px;
+}
+
+.btn{
+padding:15px 35px;
+background:white;
+color:#0077b6;
+text-decoration:none;
+font-weight:bold;
+border-radius:30px;
+}
+
+section{
+padding:70px 8%;
+}
+
+h2{
+text-align:center;
+margin-bottom:40px;
+font-size:35px;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:30px;
+}
+
+.card{
+background:white;
+padding:35px;
+border-radius:15px;
+box-shadow:0 10px 25px rgba(0,0,0,.1);
+text-align:center;
+}
+
+.contact{
+text-align:center;
+background:#caf0f8;
+}
+
+.whatsapp{
+display:inline-block;
+margin-top:20px;
+padding:15px 35px;
+background:#25D366;
+color:white;
+text-decoration:none;
+border-radius:40px;
+}
+
+footer{
+background:#03045e;
+color:white;
+text-align:center;
+padding:25px;
+}<img src="logo.png" width="60" alt="Online Chemist Logo">
